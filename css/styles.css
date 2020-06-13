@@ -71,22 +71,22 @@ h3{
     position: absolute;
     top: 40px;
     right: 28%;
-    padding-left: 7.5%;
-    padding-right: 7.5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .work{
   position: absolute;
   top: 40px;
   right: 20%;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .certs{
   position: absolute;
   top: 40px;
   right: 11%;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .h1name{
   margin: 20 auto 20 auto;
