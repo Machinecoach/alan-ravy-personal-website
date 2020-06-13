@@ -71,16 +71,22 @@ h3{
     position: absolute;
     top: 40px;
     right: 28%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
 }
 .work{
   position: absolute;
   top: 40px;
   right: 20%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 .certs{
   position: absolute;
   top: 40px;
   right: 11%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 .h1name{
   margin: 20 auto 20 auto;
@@ -160,9 +166,9 @@ h3{
   display: inline-block;
   position: relative;
   top: 40px;
-  width: 9%;
-  padding-left: 0.5%;
-  padding-right: 0.5%;
+  width: 8%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
   padding-bottom: 18px;
   line-height: .85;
 }
