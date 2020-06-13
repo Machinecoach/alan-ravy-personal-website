@@ -70,17 +70,18 @@ h3{
 .about{
     position: absolute;
     top: 40px;
-    right: 28%;
+    left: 20%;
 }
 .work{
   position: absolute;
   top: 40px;
-  right: 20%;
+  left: 32%;
+
 }
 .certs{
   position: absolute;
   top: 40px;
-  right: 11%;
+  right: 20%;
 }
 .h1name{
   margin: 20 auto 20 auto;
@@ -172,6 +173,7 @@ h3{
 .logo{
   filter: grayscale(100%);
   float: left;
+  padding: 3px;
 }
 .BUTTON_SRZ {
   background: #3E7B69;
