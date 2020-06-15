@@ -4,8 +4,6 @@ body {
   font-family: 'Merriweather', Helvetica, Arial, serif;
   color: #666C79;
 }
-
-
 a{
   color: #7BD3BA;
   font-family: 'Montserrat', sans-serif;
@@ -15,23 +13,17 @@ a{
 a:hover{
   color: #efefef;
 }
-.ers{
-  float: left;
-  width: 725px;
-  height: 420px;
-}
 hr {
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-top-width: 10px;
-  width: 4%;
+  min-width: 60px;
+  max-width: 4%;
   height: 1px;
   margin: 50px auto 50px auto;
 }
 
-img:hover{
-}
 
 h1{
   font-size: 5.625rem;
@@ -50,104 +42,40 @@ h3{
   font-family: 'Montserrat', sans-serif;
   color: #3E7B69;
   font-size: 1.5em;
-  margin: 25px auto 25px auto;
+  margin: auto auto 10px auto;
 }
 
-.headshot{
-  filter: grayscale(100%);
-  padding-top: 12.5px;
-}
-
-.h3pushdown{
+.pushdown{
   padding-bottom: 25px;
-  width: 80%
 }
 .videogame{
-  width: 25%;
+  min-width: 200px;
+  max-width: 25%;
   float: left;
   padding-right: 30px;
-}
-.about{
-    position: absolute;
-    top: 40px;
-    left: 20%;
-}
-.work{
-  position: absolute;
-  top: 40px;
-  left: 32%;
-
-}
-.certs{
-  position: absolute;
-  top: 40px;
-  right: 32%;
 }
 .h1name{
   margin: 20 auto 20 auto;
 }
 .h2name{
-  top: 50px;
   margin: 50px auto 50px auto;
   color: #F7F9F8;
 }
 .h2name2{
-  top: 50px;
   margin: 50px auto 50px auto;
   color: #F1C790;
 }
-.top-container{
-  display: block;
-  height: 100px;
-  width: 100%;
-  background-color: #E2EBE8;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
+
 .hello-p{
+  width: 70%;
   display: inline-block;
-  width: 40%;
   line-height: 2;
-}
-.contact-me{
 }
 .contact-p{
+  width: 75%;
   margin: 40px auto 100px auto;
-  width: 40%;
   text-align: center;
   line-height: 2;
-}
-.profile{
-  margin-top: 75px;
-  margin-bottom: 25px;
-}
-.mywork1{
-  color: #F7F9F8;
-  display: inline-block;
-  width: 40%;
-  line-height: 2;
-}
-.middle-container1{
-  display: inline-block;
-  height: 725px;
-  width: 100%;
-  background-color: #B1D7F6;
-  margin: 0px auto 0px auto;
-}
-.middle-container2{
-  display: inline-block;
-  height: 725px;
-  width: 100%;
-  background-color: #E9A4A2;
-  margin: 0px auto 0px auto;
-}
-.middle-container3{
-  display: inline-block;
-  height: 725px;
-  width: 100%;
-  background-color: #F1C790;
-  margin: 0px auto 0px auto;
 }
 .bottom-container{
   display: block;
@@ -157,22 +85,9 @@ h3{
   bottom: 0;
   background-color: #66AF9B;
 }
-.footer-link{
-  display: inline-block;
-  position: relative;
-  top: 40px;
-  width: 8%;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 18px;
-  line-height: .85;
-}
+
 .footer-link:hover{
   color: #efefef;
-}
-.logo{
-  filter: grayscale(100%);
-  float: left;
 }
 .BUTTON_SRZ {
   background: #3E7B69;
@@ -182,7 +97,6 @@ h3{
       font-family: 'Montserrat', sans-serif;
       font-weight: lighter;
       color:  #efefef;
-      font-size: 12px;
       padding: 10px;
       text-decoration: none;
       font-size: 25px;
@@ -198,17 +112,20 @@ h3{
 }
 .skill-row{
   margin: 100px auto 100px auto;
-  width: 50%;
+  vertical-align: middle;
+  width: 70%;
   text-align: left;
   line-height: 2;
 }
 .skateboard{
-  width: 25%;
+  min-width: 200px;
+  max-width: 25%;
   float: left;
   padding-right: 30px;
 }
 .coffee{
-  width: 25%;
+  min-width: 200px;
+  max-width: 25%;
   float: right;
   padding-left: 30px;
 }
@@ -223,13 +140,15 @@ h3{
   margin: 5px auto 5px auto
 }
 .books{
-  width: 25%;
+  min-width: 200px;
+  max-width: 25%;
   float: right;
   padding-left: 30px;
 }
 
 .fitness{
-  width: 25%;
+  min-width: 200px;
+  max-width: 25%;
   float: right;
   padding-left: 30px;
 }
