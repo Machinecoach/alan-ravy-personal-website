@@ -3,6 +3,10 @@ body {
   text-align: center;
   font-family: 'Merriweather', Helvetica, Arial, serif;
   color: #666C79;
+  background-color: #D0F6FA;
+}
+.work-body{
+  background-color: #5D889A;
 }
 a{
   color: #7BD3BA;
@@ -22,6 +26,10 @@ hr {
   max-width: 4%;
   height: 1px;
   margin: 50px auto 50px auto;
+}
+
+.container-fluid{
+  padding: 3% 15%;
 }
 
 
@@ -45,6 +53,10 @@ h3{
   margin: auto auto 10px auto;
 }
 
+.white{
+  color: white;
+}
+
 .pushdown{
   padding-bottom: 25px;
 }
@@ -57,6 +69,9 @@ h3{
 .h1name{
   margin: 20 auto 20 auto;
 }
+.dark-grey{
+  background-color: #666C79;
+}
 .h2name{
   margin: 50px auto 50px auto;
   color: #F7F9F8;
@@ -67,21 +82,21 @@ h3{
 }
 
 .hello-p{
-  width: 70%;
   display: inline-block;
   line-height: 2;
+  color: #B3DFF1;
 }
 .contact-p{
-  width: 75%;
+  width: 60%;
   margin: 40px auto 100px auto;
   text-align: center;
   line-height: 2;
 }
 .bottom-container{
-  display: block;
-  height: 32px;
+  height: 0px;
   width: 100%;
   position: fixed;
+  z-index: -10;
   bottom: 0;
   background-color: #66AF9B;
 }
@@ -110,10 +125,32 @@ h3{
     border-radius: 8px;
     text-decoration: none;
 }
+
+#testimonials {
+  background-color: #729795;
+  min-height: 400px;
+}
+.testimonial-image{
+  align-items: center;
+  border-radius: 100%;
+  margin: 0px;
+}
+
+.testimonial-text{
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: white;
+}
+.contact-me{
+  padding-top: 25px;
+  background-color: #ACD5CA;
+}
+
 .skill-row{
-  margin: 100px auto 100px auto;
+  margin: 25px auto 100px auto;
   vertical-align: middle;
-  width: 70%;
+  max-width: 1280px;
+  padding-left: 5%;
   text-align: left;
   line-height: 2;
 }
@@ -151,4 +188,7 @@ h3{
   max-width: 25%;
   float: right;
   padding-left: 30px;
+}
+.readinglevel{
+  float: left;
 }
